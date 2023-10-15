@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Template Name: PhotoProwess
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Infraneed Infotech | about us</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="../layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="../layout/scripts/jquery.ui.min.js"></script>
+<script type="text/javascript" src="../layout/scripts/jquery.defaultvalue.js"></script>
+<script type="text/javascript" src="../layout/scripts/jquery.scrollTo-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#fullname, #validemail, #message").defaultvalue("Full Name", "Email Address", "Message");
+    $('#shout a').click(function () {
+        var to = $(this).attr('href');
+        $.scrollTo(to, 1200);
+        return false;
+    });
+    $('a.topOfPage').click(function () {
+        $.scrollTo(0, 1200);
+        return false;
+    });
+    $("#tabcontainer").tabs({
+        event: "click"
+    });
+});
+</script>
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="topbar" class="clear">
+    <ul>
+      <li></li></ul>
+    <form action="#" method="post" id="search">
+      <fieldset>
+        <legend>Site Search</legend>
+        <input type="text" value="Search Our Website&hellip;" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+        <input type="image" id="go" src="../images/search.gif" alt="Search" />
+      </fieldset>
+    </form>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="header" class="clear">
+    <div class="fl_left">
+      <h1><a href="index.html">Infraneed Infotech</a> </h1>
+    </div>
+    <div id="topnav">
+      <div id="topnav2">
+        <ul>
+          <li class="last"><a href="pay-us.html">pay us</a></li>
+          <li><a href="contact-us.html">contact us</a></li>
+          <li><a href="#">services</a>
+            <ul>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+            </ul>
+          </li>
+          <li><a href="careers.html">careers</a></li>
+          <li><a href="about-us.html">About us</a></li>
+          <li class="active"><a href="../index.html">Home</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  <div id="container" class="clear"> 
+    <!-- ####################################################################################################### -->
+    <div id="shout" class="clear">
+      <div class="fl_left">
+        <h2>||About Us </h2>
+      </div>
+    </div>
+    <!-- ####################################################################################################### -->
+    <p><strong>The Directors</strong></p>
+    <p><strong>Suresh Dangi</strong>, an MBA Post Graduate by qualification, brings to the <a href="javascript:void(0)"><u>firm</u></a> an industry experience of about seventeen years, of which a decade has been in the <span id="eq8k0j58097_7">Linux domain</span>, Suresh, also a   Redhat Certified Linux Professional,  Red Hat Certified Engineer.</p>
+    <p> <strong>Bharat Lalwani</strong> has <span id="eq8k0j58097_1">more</span> than a few internationally renowned certification to his credit &ndash; Red   Hat Certified Engineer,  Cisco Certified Network Associate and Microsoft   Certified Systems Engineer. As the CTO of the Organization, Bharat is <a href="javascript:void(0)"><u>mentor</u></a> and guide to the technical team. <br />
+      <br />
+      <strong>Rajesh Shukla</strong>
+      , an <span id="eq8k0j58097_2">entrepreneur</span> throughout, has been associated with IT since 2006. Having experience   in various domains like Desktop Publishing and CAD, he has been   associated with Linux and training for the last six years. Rajesh, also a   Redhat Certified Linux Professional,  Red Hat Certified Engineer and a Certified VMWare Specialist, heads the Business Division at Infraneed Infotech. </p>
+    <p><strong>The Team</strong></p>
+    <p>The team of engineers, headed by a Technical Manager, is chosen and groomed with a <span id="eq8k0j58097_4">great deal</span> of care and effort. Ranging from the freshers to the experienced, each   member of the team is thoroughly trained on the skills needed to ensure a   job is done professionally and efficiently. Every member of the team is   required to reinforce and enhance his technical skills at periodic   intervals, in order to stay abreast of the latest in the technologies   that the organization has business interests in.</p>
+    <h2><!-- ####################################################################################################### --></h2>
+  </div>
+<!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable --></div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="footer" class="clear">
+    <div class="fl_left">
+<h2>&nbsp;</h2>
+<div id="contact" class="clear">
+  <h2>Reach out</h2>
+<label for="fullname*">Name:</label>
+<input name="fullname*" type="text" id="fullname" value="" size="60" />
+<label for="validemail">Email:</label>
+<input name="validemail" type="text" id="validemail" value="" size="60" />
+<label for="message">Message:</label>
+<textarea name="message" cols="65" id="message"></textarea>
+<button type="submit" value="submit"><span>Submit</span></button>
+<p>&nbsp;</p>
+    </div>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div class="fl_right">
+      <div id="tabcontainer" class="border">
+        <ul id="tabnav">
+          <li><a href="#tabs-1">From The Blog</a></li>
+          <li><a href="#tabs-2">Latest Tweets</a></li>
+          <li class="last"><a href="#tabs-3">Interesting Links</a></li>
+        </ul>
+<ul class="blogposts"><li><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=in&amp;usg=AFQjCNF7pa2p5mOAKVLQ_10ryWuZsI06RA&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52778755022724&amp;ei=FzUhVciXGofBmQKPyYDAAg&amp;url=http://www.sys-con.com/node/3306062">Microchip LoRa&trade; Technology Wireless Module Enables IoT; First Module for ... - SYS-CON Media (press release)</a></li>
+          <li><a href="http://news.google.com/news/url?sa=t&amp;fd=R&amp;ct2=in&amp;usg=AFQjCNFOcGxA6mFM29TAR0BSNXwqy46ZrQ&amp;clid=c3a7d30bb8a4878e06b80cf16b898331&amp;cid=52778643362139&amp;ei=FzUhVciXGofBmQKPyYDAAg&amp;url=http://www.marketwired.com/press-release/pertino-simplifies-networking-of-docker-containers-across-any-cloud-anywhere-1961751.htm">Pertino Simplifies Networking of Docker Containers Across Any Cloud Anywhere - Marketwired (press release)</a></li></ul>
+      </div>
+      <h2>Keep Up To Date</h2>
+      <ul class="socialize">
+        <li><span>Facebook:</span> <a href="#">www.facebook.com/myhandel</a></li>
+        <li><span>Twitter:</span> <a href="#">www.twitter.com/myhandel</a></li>
+        <li class="last"><span>LinkedIn:</span> <a href="#">www.linkedin.com/myhandel</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="backtotop"><a href="#top" class="topOfPage">To The Top</a></div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="copyright" class="clear">
+    <p class="fl_left"><a href="index.html" target="_top"><strong>Infraneed Infotech</strong></a>
+    </p>
+    <p>&nbsp;</p>
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - Infraneed infotech</p>
+  </div>
+</div>
+</body>
+</html>
